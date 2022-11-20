@@ -1,0 +1,135 @@
+﻿@model PagedList.IPagedList<ContactDirectory.Models.Contact>
+@using PagedList.Mvc;
+
+
+
+@{
+    ViewBag.Title = "Index of Contacts";
+}
+
+<h3 class="float-center";style="font-size:large">Index of Contacts</h3>
+
+<div class="float-right">
+    @Html.ActionLink("Create a new Contact", "Create")
+    </div>
+@using(Html.BeginForm("Index", "Home"))
+{
+    <p>
+            Search: @Html.TextBox("searchstr", ViewBag.currentfilter as string)
+        <input type="submit" value="Search records" style="font-size:small"/>
+
+    </p>
+}
+<table>
+    <tr>
+       <th class="displaylabel";style="width: 50%">
+            
+            @Html.ActionLink("Company","Index",new {sortorder=ViewBag.Companysort,currentfilter=ViewBag.currentfilter})
+        @*    @Html.DisplayNameFor(model => model.Company)*@
+        </th>
+       <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("First Name","Index",new {sortorder=ViewBag.FirstNamesort, currentfilter=ViewBag.currentfilter})
+          @*  @Html.DisplayNameFor(model => model.FirstName)*@
+        </th>
+       <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("Last Name","Index",new {sortorder=ViewBag.LastNamesort, currentfilter=ViewBag.currentfilter})
+         
+        </th>
+       <th class="displaylabel";style="width: 50%">
+           @Html.ActionLink("Job Title","Index",new {sortorder=ViewBag.Jobsort,currentfilter=ViewBag.currentfilter})
+           
+        </th>
+       
+        <th class="displaylabel";style="width: 50%">
+             @Html.ActionLink("Office Phone","Index",new {sortorder=ViewBag.OfficePhonesort,currentfilter=ViewBag.currentfilter})
+        
+        </th>
+
+      <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("Cell Phone","Index",new {sortorder=ViewBag.CellPhonesort,currentfilter=ViewBag.currentfilter})
+      
+        </th>
+        <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("Fax No.","Index",new {sortorder=ViewBag.FaxNosort,currentfilter=ViewBag.currentfilter})
+       
+        </th>
+        <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("Email Address","Index",new {sortorder=ViewBag.Emailsort,currentfilter=ViewBag.currentfilter})
+      
+        </th>
+        <th class="displaylabel";style="width: 40%">
+            @Html.ActionLink("Website","Index",new {sortorder=ViewBag.Websitesort,currentfilter=ViewBag.currentfilter})
+          
+        </th>
+        <th class="displaylabel";style="width: 50%">
+            @Html.ActionLink("Address","Index",new {sortorder=ViewBag.Addresssort,currentfilter=ViewBag.currentfilter})
+       
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+         <td class="item">
+            @Html.DisplayFor(modelItem => item.Company)
+        </td>
+         <td class="item">
+             @Html.ActionLink(item.FirstName,"Details", new {id=item.ContactID})
+          @*  @Html.DisplayFor(modelItem => item.FirstName)*@
+        </td>
+         <td class="item">
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+         <td class="item">
+            @Html.DisplayFor(modelItem => item.JobTitle)
+        </td>
+         <td class="item">
+            @Html.DisplayFor(modelItem => item.OfficePhone)
+        </td>
+      <td class="item">
+            @Html.DisplayFor(modelItem => item.CellPhone)
+        </td>
+        <td class="item">
+            @Html.DisplayFor(modelItem => item.FaxNo)
+        </td>
+        <td class="item">
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td class="item">
+            @Html.DisplayFor(modelItem => item.Website)
+        </td>
+        <td class="item">
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ContactID }) |
+          @*  @Html.ActionLink("Details", "Details", new { id=item.ContactID }) |*@
+            @Html.ActionLink("Delete", "Delete", new { id=item.ContactID })
+        </td>
+    </tr>
+}
+
+</table>
+@Styles.Render("~/Content/PagedList.css")
+<br/>
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", 
+    new { page, sortorder = ViewBag.Currentsort, currentfilter = ViewBag.currentfilter }))
+<style>
+    .item {
+        border: 1px solid black; 
+            text-align: center; 
+            word-wrap: break-word;
+            padding:3px
+    }
+    .displaylabel {
+
+        border: 1px solid black; 
+        text-align: center;
+        font-size:15px;
+        padding:3px;
+    }
+
+
+</style>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContactDirectoryDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ContactDirectoryDBModelStoreContainer">
+    <EntitySet Name="Contacts" EntityType="ContactDirectoryDBModel.Store.Contacts" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Contacts">
+    <Key>
+      <PropertyRef Name="ContactID" />
+    </Key>
+    <Property Name="ContactID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Company" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="JobTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficePhone" Type="nchar" Nullable="false" MaxLength="14" />
+    <Property Name="CellPhone" Type="nchar" Nullable="false" MaxLength="14" />
+    <Property Name="FaxNo" Type="nvarchar" Nullable="false" MaxLength="14" />
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="Website" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="60" />
+  </EntityType>
+</Schema>

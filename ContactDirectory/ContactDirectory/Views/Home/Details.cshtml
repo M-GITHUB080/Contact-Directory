@@ -1,0 +1,95 @@
+﻿@model ContactDirectory.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="float:inherit" class ="boxed">
+
+    <h2 class="center1">@Html.DisplayFor(model => model.Company)</h2>
+    <div class="center2">
+        Office Address: @Html.DisplayFor(model => model.Address)
+    </div>
+    <br />
+    <br />
+    <h1 class="center1"; style="font-size:large">@Html.DisplayFor(model => model.FirstName)  @Html.DisplayFor(model => model.LastName)</h1>
+
+    
+  <fieldset>
+     <legend>Contact</legend>
+
+      
+   
+      <div class="center2">
+          @Html.DisplayFor(model => model.JobTitle)
+      </div>
+
+      <br />
+      
+      <div class="center2">
+          Office: @Html.DisplayFor(model => model.OfficePhone)
+      </div>
+
+            
+      <div class="center2">
+          Cell: @Html.DisplayFor(model => model.CellPhone)
+      </div>
+
+      <div class="center2">
+          Fax:@Html.DisplayFor(model => model.FaxNo)
+      </div>
+
+       
+      <div class="center2">
+          Email: @Html.DisplayFor(model => model.Email)
+      </div>
+
+
+      <div class="center2">
+          Website: @Html.DisplayFor(model => model.Website)
+      </div>
+
+   </fieldset>
+    
+</div>
+<p class="right">
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ContactID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+    <style type="text/css">
+        body {
+        font-family:Arial;
+        font-size:15px;
+        
+        }
+        .center1{
+            text-align: center;
+            font-size: 17px;
+        }
+        .center2 { text-align:center;
+                   font-size:13px;
+                 }
+        
+        .right {
+            text-align: right;
+            font-size: 12px;
+        }
+
+        .backcolor {
+            background-color: lightblue;
+        }
+
+        .boxed {
+            
+            box-sizing:border-box;
+            border: 1px solid black;
+            width: 450px;
+            height: 250px;
+            margin:0 auto;
+            background-color:cornsilk;
+        }
+    </style>
+
+
+

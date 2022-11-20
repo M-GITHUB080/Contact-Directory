@@ -1,0 +1,103 @@
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\ContactDirectory.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\ContactDirectory.pdb
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Antlr3.Runtime.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.Core.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\EntityFramework.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Newtonsoft.Json.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\PagedList.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\PagedList.Mvc.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Helpers.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Mvc.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Optimization.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Razor.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\WebGrease.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\WebMatrix.Data.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\WebMatrix.WebData.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\PagedList.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\PagedList.Mvc.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\EntityFramework.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Newtonsoft.Json.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Helpers.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Mvc.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.Razor.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\WebMatrix.Data.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\WebMatrix.WebData.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.Core.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.dll
+C:\Users\Hassaan-pc\documents\visual studio 2012\Projects\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.pdb
+C:\Users\Hassaan-pc\Documents\Visual Studio 2012\Projects\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.csprojResolveAssemblyReference.cache
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\ContactDirectory.dll.config
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\ContactDirectory.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\ContactDirectory.pdb
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Antlr3.Runtime.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.Core.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\EntityFramework.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Newtonsoft.Json.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\PagedList.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\PagedList.Mvc.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Net.Http.Formatting.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Helpers.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Http.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Http.WebHost.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Mvc.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Optimization.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Razor.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Deployment.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Razor.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\WebGrease.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\WebMatrix.Data.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\WebMatrix.WebData.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\PagedList.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\PagedList.Mvc.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\EntityFramework.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Newtonsoft.Json.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Net.Http.Formatting.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Helpers.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Http.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Http.WebHost.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Mvc.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.Razor.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Deployment.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\System.Web.WebPages.Razor.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\WebMatrix.Data.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\WebMatrix.WebData.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.Core.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.csproj.AssemblyReference.cache
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.csproj.CoreCompileInputs.cache
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.csproj.CopyComplete
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.dll
+C:\Users\softwaredeveloper\Documents\project\ContactDirectory\ContactDirectory\obj\Debug\ContactDirectory.pdb

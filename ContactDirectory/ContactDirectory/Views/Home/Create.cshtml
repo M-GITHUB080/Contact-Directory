@@ -1,0 +1,115 @@
+﻿@model ContactDirectory.Models.Contact
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h3 style="font-size:15px">Create a new contact</h3>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+  <fieldset>
+    <legend>Contact</legend>
+
+       <table>
+        <tr>
+            <td style="font-weight: 500">@Html.LabelFor(model => model.Company)</td>
+            <td>  @Html.DropDownListFor(model=>model.Company, new SelectList(new [] {"","Access Communications","Adecco","Air Canada","Aldo Group","Bell Canada","Canadian Executive Research","Compass Group Canada",
+                "Glass Canada","Fido","Info-tech Research",
+                "Adrene","ManuLife","Magna International","ZTR Control","Other" }))
+              
+            </td>
+              <td style="font-weight:500">  @Html.LabelFor(model => model.CellPhone)</td>
+               <td>@Html.EditorFor(model => model.CellPhone)
+                         @Html.ValidationMessageFor(model => model.CellPhone)</td>
+           
+        </tr> 
+
+           @*if(model=>model.Company=="Other")*@
+                 
+                 <tr>
+                    <td >Other, please specify:</td>
+                    <td>
+                        @Html.EditorFor(model => model.Company)
+                             @Html.ValidationMessageFor(model => model.Company)
+                    </td>
+                    
+                </tr>
+               
+        <tr>
+            <td style="font-weight: 500">  @Html.LabelFor(model => model.FirstName) </td>
+            <td> @Html.EditorFor(model => model.FirstName)
+            @Html.ValidationMessageFor(model => model.FirstName)</td>
+
+            <td style="font-weight:500">  @Html.LabelFor(model => model.FaxNo)</td>
+            <td>  @Html.EditorFor(model => model.FaxNo)
+            @Html.ValidationMessageFor(model => model.FaxNo)</td>
+              
+        </tr>
+        <tr>
+              
+           <td style="font-weight:500"> @Html.LabelFor(model => model.LastName)</td>
+            <td> @Html.EditorFor(model => model.LastName)
+            @Html.ValidationMessageFor(model => model.LastName)</td>
+             
+
+            <td style="font-weight:500">@Html.LabelFor(model => model.Email)</td>
+            <td> @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)</td>
+        </tr>
+        <tr>
+             <td style="font-weight:500">  @Html.LabelFor(model => model.JobTitle)</td>
+         <td> @Html.EditorFor(model => model.JobTitle)
+            @Html.ValidationMessageFor(model => model.JobTitle)</td>
+
+            <td style="font-weight:500">    @Html.LabelFor(model => model.Website)</td>
+         <td> @Html.EditorFor(model => model.Website)
+            @Html.ValidationMessageFor(model => model.Website)</td>
+    
+        </tr>
+          
+        <tr>
+           
+             <td style="font-weight:500">   @Html.LabelFor(model => model.OfficePhone)</td>
+             <td>    @Html.EditorFor(model => model.OfficePhone)
+            @Html.ValidationMessageFor(model => model.OfficePhone)</td>
+       
+            <td style="font-weight:500">   @Html.LabelFor(model => model.Address)</td>
+            <td> @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)</td>
+
+        </tr>
+  
+   
+      </table>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+@*
+<script>
+$(document).ready(function () {
+  $('#Company').on('change', function () {
+
+        var selectValue = this.value;
+        if (selectValue == "Other") {
+            $("#Company").show();
+        }
+        else {
+            $("#Company").hide();
+        }
+
+    });
+});
+</script>*@

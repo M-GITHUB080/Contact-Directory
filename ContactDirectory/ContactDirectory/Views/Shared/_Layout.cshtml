@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   
+     <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - ABC Contact Directory</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    
+    <body>
+        <header>
+            <div class="content-wrapper";style="background-color:white">
+                <div class="float-left">
+                    <p class="title">ABC Contact Directory</p>
+                </div>
+                <div class="float-right">
+                   @* <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>*@
+                    <nav>
+                        <ul id="menu">
+
+                            <li>@Html.ActionLink("List of Contacts", "Index", "Home")</li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix"; style="background-color:lavender">
+                
+        
+                @RenderBody()
+               
+            </section>
+               @RenderSection("Leftsection",false)
+                @RenderSection("Rightsection",false)
+
+        </div>
+        <footer>
+            <div class="content-wrapper";style="background-color:white">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - ABC Contact Directory Application</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+      
+     @*   @RenderSection("Middlesection",true)
+        @RenderSection("Footer",true)*@
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
+<style type="text/css">
+    .title {
+    font-family:Arial;
+    text-align:center;
+    font-size:30px;
+    }
+
+</style>
